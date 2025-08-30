@@ -1,0 +1,15 @@
+body {
+    caret-color: black
+}
+
+font {
+    size: 0cqmax color=aliceblue
+}
+
+border {
+    height: 3000px width=20px color=cyan
+}
+
+table {
+    border-left: auto;
+}

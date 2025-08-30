@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+font{
+    size: 5;
+    color:green;
+    
+}
+.contenedor {
+    display: flex;
+}
+
+.menu {
+    width: 220px;
+    background-color: #111;
+    padding: 20px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    border-right: 3px solid cyan;
+}
+
+.menu h2 {
+    color: cyan;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 10px;
+    color: #09f;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #00DDFF;
+}
+
+.contenido {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.destacados {
+    margin-top: 30px;
+}
+
+.destacados .producto {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.destacados img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #09f;
+    transition: transform 0.3s;
+}
+
+.destacados img:hover {
+    transform: scale(1.1);
+}
